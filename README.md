@@ -74,8 +74,8 @@ Tiny footprint — suitable for **AVR, ESP32, and ESP8266** boards.
 |-------|---------|
 | VIN   | 3.3V |
 | GND   | GND |
-| TX    | RX *(Serial1 RX)* |
-| RX    | TX *(Serial1 TX)* |
+| TX(MISO)    | RX *(Serial1 RX)* |
+| RX(SCL)    | TX *(Serial1 TX)* |
 | INTN  | Optional |
 
 ---
